@@ -71,7 +71,7 @@ export default function Game() {
         {
             navigation.navigate('winner', {win: '0'});
         }
-    }, [remainingMoves])
+    })
 
     return (
         <View style={styles.container}>
